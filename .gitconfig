@@ -1,3 +1,5 @@
 [user]
 	email = azizjon0325@gmail.com@gmail.com
 	name = azizbek
+[http]
+	postBuffer = 524288000

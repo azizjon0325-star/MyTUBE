@@ -94,3 +94,29 @@ cursor.execute("CREATE TABLE IF NOT EXISTS saved (title TEXT, link TEXT)")
 conn.commit() class MyTube(App):
 if __name__ == "__main__":;     MyTube().run()
 buildozer init
+pkg install git
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GitHub/mytube.git
+git push -u origin main
+git config --global user.email "azizjon0325@gmail.com@gmail.com"
+git config --global user.name "azizbek"
+git remote remove origin
+git remote add origin https://github.com/USERNAME/mytube.git
+git add .
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+https://github.com/azizjon0325-star/MYTUBE.git
+git remote remove origin
+git remote add origin https://github.com/azizjon0325-star/MYTUBE.git
+git push -u origin main
+pkg install git
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/mytube.git
+git push -u origin main
