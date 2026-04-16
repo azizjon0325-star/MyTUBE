@@ -8,9 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           sudo apt update
           sudo apt install -y git zip unzip openjdk-17-jdk python3-pip build-essential libffi-dev libssl-dev
@@ -21,6 +22,6 @@ jobs:
           pip install buildozer cython
 
       - name: Build APK
-  run: |
-    cd mytube/mytube
-    buildozer android debug
+        run: |
+          cd mytube/mytube
+          buildozer android debug
